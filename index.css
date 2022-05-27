@@ -1,0 +1,133 @@
+body, html, .landing {
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 0 0 150px;
+	background: linear-gradient(0deg, rgba(0, 0, 50, 0.3), rgba(0, 0, 50, 0.3)), url("img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 3.5em;
+}
+
+.landing h1 {
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.landing h2 {
+	margin-top: 50px;
+	font-size: 0.9em;
+}
+
+.quote {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	margin-bottom: 150px;
+}
+
+.quote-image {
+	position: relative;
+	top: 0;
+	left: -50px;
+	width: 50px;
+	height: 50px;
+}
+
+.quote-content {
+	position: relative;
+	margin: 100px 100px 100px 150px;
+}
+
+.quote-text {
+	margin: 0;
+	position: relative;
+	top: -40px;
+	left: 20px;
+	max-width: 800px;
+}
+
+.jfk-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	flex-basis: 100%;
+	left: calc(100% - 800px);
+	top: -150px;
+}
+
+.jfk-image {
+	width: 800px;
+}
+
+.content {
+	width: 800px;
+	margin: auto;
+	max-width: 80%;
+}
+
+.timeline b {
+	font-size: 1.1em;
+}
+
+.countries {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.country {
+	padding: 10px;
+}
+
+.country span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 3px;
+}
+
+.country img {
+	display: block;
+	height: 75px;
+}
+
+.centered {
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.jfk-image {
+		display: none;
+	}
+}
+
+.centered-img {
+	margin: auto;
+}
+
+p {
+	line-height: 1.3em;
+}
+
+.references span {
+	display: block;
+}
+
+.references {
+	padding-bottom: 50px;
+}
+
+.references span:nth-child(odd) {
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
